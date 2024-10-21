@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #89cff0, #1e90ff);
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header, footer {
+    background: #1e90ff;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #1e90ff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+}
